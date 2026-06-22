@@ -1,0 +1,37 @@
+DATASET OBSERVATIONS
+
+01_fund_master.csv
+- No missing values
+- No duplicates
+
+02_nav_history.csv
+- Large historical NAV dataset
+- No missing values
+
+03_aum_by_fund_house.csv
+- AUM trends by fund house
+- No missing values
+
+04_monthly_sip_inflows.csv
+- 12 missing values in yoy_growth_pct
+- No duplicates
+
+05_category_inflows.csv
+- Category-wise inflows
+- No missing values
+
+06_industry_folio_count.csv
+- Folio count information
+- No duplicates
+
+07_scheme_performance.csv
+- Fund performance metrics
+
+08_investor_transactions.csv
+- Large transaction dataset
+
+09_portfolio_holdings.csv
+- Portfolio allocation details
+
+10_benchmark_indices.csv
+- Historical benchmark index data
