@@ -1,0 +1,72 @@
+Key Findings from Fund Master Exploration
+
+Fund Houses
+The dataset contains 10 mutual fund houses:
+Aditya Birla Sun Life MF
+Axis Mutual Fund
+DSP Mutual Fund
+HDFC Mutual Fund
+ICICI Prudential MF
+Kotak Mahindra MF
+Mirae Asset MF
+Nippon India MF
+SBI Mutual Fund
+UTI Mutual Fund
+
+Categories
+The schemes are classified into 2 primary categories:
+Equity
+Debt
+
+Sub-Categories
+A total of 12 sub-categories were identified:
+ELSS
+Flexi Cap
+Gilt
+Index
+Index/ETF
+Large & Mid Cap
+Large Cap
+Liquid
+Mid Cap
+Short Duration
+Small Cap
+Value
+
+Risk Categories
+The schemes span 5 risk levels:
+Low
+Moderate
+Moderately High
+High
+Very High
+
+AMFI Code Validation Summary
+Validation Results
+Metric	Value
+Fund Master AMFI Codes	40
+NAV History AMFI Codes	40
+Missing Codes	0
+Coverage	100%
+
+Observation
+All AMFI scheme codes present in the fund_master dataset were successfully found in the nav_history dataset. No missing mappings were detected, indicating complete referential integrity between scheme master data and NAV history records.
+
+Data Quality Assessment
+Missing Values
+Fund Master
+0 missing values across all columns
+NAV History
+0 missing values across all columns
+
+Duplicate Records
+Dataset	Duplicates
+Fund Master	0
+NAV History	0
+
+Conclusion
+No missing values are detected.
+No duplicate records are present.
+AMFI code coverage is 100%.
+Fund Master and NAV History datasets are fully consistent.
+Data is suitable for downstream analysis, SQL modeling, and dashboard development.
