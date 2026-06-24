@@ -1,0 +1,9 @@
+SQLite Load Verification
+
+dim_fund : 40
+fact_nav : 46000
+fact_transactions : 32778
+fact_performance : 40
+fact_aum : 90
+
+All row counts match source datasets.
